@@ -1,0 +1,5 @@
+# Byte fidelity matters in this repository: instances/taillard_pfsp/*.fsp are
+# hashed in SHA256SUMS and verified bit-for-bit against Taillard's generator.
+# Disable all end-of-line conversion so a checkout on any platform reproduces
+# the exact bytes that were committed.
+* -text

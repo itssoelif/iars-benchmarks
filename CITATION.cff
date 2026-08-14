@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+title: "IARS — Benchmark Instances and Algorithm Pseudocode"
+message: >-
+  If you use the pseudocode or the packaging of this repository, please cite the
+  thesis below. If you use the Taillard instance files, cite Taillard (1993) —
+  see the references section.
+type: dataset
+authors:
+  - family-names: "Yıldırım"
+    given-names: "Elif"
+    affiliation: "Sakarya Üniversitesi, Fen Bilimleri Enstitüsü"
+license: CC-BY-4.0
+repository-code: "https://github.com/itssoelif/iars-benchmarks"
+keywords:
+  - unrelated parallel machine scheduling
+  - machine eligibility
+  - capacity constraints
+  - makespan
+  - simulated annealing
+  - irace
+  - benchmark instances
+preferred-citation:
+  type: thesis
+  thesis-type: "PhD thesis"
+  title: >-
+    Uygunluk ve Kapasite Kısıtlı İlişkisiz Paralel Makine Çizelgeleme Problemi
+    için Zeki ve Hibrit Bir Model Önerisi
+  authors:
+    - family-names: "Yıldırım"
+      given-names: "Elif"
+  institution:
+    name: "Sakarya Üniversitesi, Fen Bilimleri Enstitüsü"
+  year: 2026
+  # Tez danışmanı / Supervisor: Doç. Dr. Berrin Denizhan
+  # (CFF 1.2.0'da danışman için ayrı bir alan bulunmamaktadır.)
+references:
+  - type: article
+    title: "Benchmarks for basic scheduling problems"
+    authors:
+      - family-names: "Taillard"
+        given-names: "Eric"
+    journal: "European Journal of Operational Research"
+    volume: 64
+    issue: 2
+    start: 278
+    end: 285
+    year: 1993
+    doi: "10.1016/0377-2217(93)90182-M"

@@ -1,0 +1,24 @@
+Copyright (c) 2026 Elif Yıldırım
+
+REPOSITORY-AUTHORED CONTENT
+---------------------------
+README.md, PSEUDOCODE.md, CITATION.cff and instances/taillard_pfsp/README.md are
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0). Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt this material for any purpose, provided you give
+appropriate credit to the thesis cited in CITATION.cff.
+
+THIRD-PARTY BENCHMARK DATA
+---------------------------
+The files under instances/taillard_pfsp/*.fsp are NOT authored by this repository.
+They are the permutation flow-shop benchmark instances published in:
+
+    Taillard, E. (1993). Benchmarks for basic scheduling problems.
+    European Journal of Operational Research, 64(2), 278-285.
+    https://doi.org/10.1016/0377-2217(93)90182-M
+
+Taillard released these instances for free academic use and they are widely mirrored.
+They are redistributed here unmodified, purely for the reproducibility of the thesis's
+external-validity experiments, and remain subject to their original terms. Anyone using
+them must cite Taillard (1993), not this repository.
